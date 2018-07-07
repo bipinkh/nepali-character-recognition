@@ -4,3 +4,6 @@ include
 lib
 local
 pip-selfcheck.json
+__pycache__
+font-images/
+__init__.py
