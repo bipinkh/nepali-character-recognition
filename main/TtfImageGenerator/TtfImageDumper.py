@@ -23,7 +23,7 @@ def main():
             im  =  Image.new ( "RGB", (width,height), back_ground_color )
             draw  =  ImageDraw.Draw ( im )
             draw.text ( (10,10), ch, font=custom_font, fill=font_color )
-            im.save(font_image_folder+fileNames[count-1]+".jpg",'JPEG')
+            im.save(font_image_folder+fileNames[count-1]+".png",'PNG')
 
 
 if __name__== "__main__":
